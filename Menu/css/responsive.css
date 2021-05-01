@@ -1,0 +1,173 @@
+@media(max-width:1200px){
+  .list ul li
+  {
+    margin-left: 40px !important;
+  }
+}
+@media(max-width:950px){
+  .list ul li
+  {
+    margin-left: 25px !important;
+  }
+}
+@media(max-width:853px){
+  .logo img
+  {
+    margin: 15px;
+  }
+  .open-slide
+  {
+  	display:block !important;
+    padding: 20px;
+  }
+  .list
+  {
+  	display: none;
+  }
+  .desktop_only
+  {
+    display: none;
+  }
+}
+@media screen and (max-width:1200px)
+{
+  .row .col-3
+   {
+    margin-left: 5%;
+    margin-right: 5%;
+   }
+  .main-section
+  {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 10px;
+
+  }
+  .article
+  {
+    width: 97%;
+  }
+   .article hr
+   {
+    width: 80%;
+    max-width: 1200px;
+   }
+}
+@media screen and (max-width:900px)
+{
+  .main-section
+  {
+    width: 100%;
+    max-width: 900px;
+    margin-left: 10px;
+
+  }
+  .article
+  {
+    width: 97%;
+  }
+   .article hr
+   {
+    width: 80%;
+    max-width: 900px;
+   }
+   
+}
+@media screen and (max-width: 600px)
+{
+  .container
+  {
+    width: 100%;
+    max-width: 600px;
+  }
+  .row
+  {
+    display: grid !important;
+    grid-template-columns: auto auto !important; 
+  }
+  .col
+  {
+    padding-top: 10px;
+  }
+  .main-section
+  {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10px;
+
+  }
+  .article
+  {
+    width: 97%;
+  }
+   .article hr
+   {
+    width: 80%;
+    max-width: 600px;
+   }
+   .article h2
+   {
+    text-align: center;
+   }
+   .article h3
+   {
+    font-size: 16px;  
+   }
+}
+@media screen and (max-width: 480px)
+{
+  .container
+  {
+    width: 100%;
+    max-width: 480px;
+  }
+  .row
+  {
+    display: block !important;
+    margin-left: 0px;
+  }
+
+  .col
+  {
+    padding-top: 10px;
+  }
+  .row .col img
+  {
+    width: 100%;
+    max-width: 480px;
+    max-height: 320px;
+  }
+  .row .col span
+  {
+    width: 100%;
+    max-width: 480px;
+  }
+  .main-section
+  {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    margin-left: 0px;
+  }
+   .article
+   {
+    column-count: 1;
+    overflow: auto;
+    margin-left: 5px;
+   }
+   .article hr
+   {
+    width: 75%;
+    max-width: 480px;
+   }
+   .article h2
+   {
+    text-align: center;
+   }
+   .article h3
+   {
+    font-size: 14px;
+    display: none;
+   }
+}
